@@ -73,6 +73,13 @@ Below is a table with all KeyOrder.MERSENNE_* constants
 shamir.recover_secret([keys[0], keys[2]]))
 ```
 
+```python
+shamir.recover_secret([
+        (1, 68724745325519546275944861460257),
+        (3, 42164904574886251583252284092622)
+    ])
+```
+
 Output:
 ```bash
 'Hallo world'
