@@ -189,10 +189,3 @@ if __name__ == "__main__":
     
     print('\nRecover secret with keys 1 and 3...')
     print(s.recover_secret([keys[0], keys[2]]))
-
-    print('Split secret to (2, 4) with key order KeyOrder.MERSENNE_1279...')
-    keys = s.split_secret('Hallo world', 2, 4, key_order=KeyOrder.MERSENNE_1279)
-    print(keys)
-    
-    print('\nRecover secret with keys 2 and 4...')
-    print(s.recover_secret([keys[1], keys[3]]))
