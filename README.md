@@ -77,3 +77,5 @@ Output:
 ```bash
 'Hallo world'
 ```
+
+recover_secret() returns decoded string or None, if decode error (invalid keys)

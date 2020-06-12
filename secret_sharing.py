@@ -171,13 +171,12 @@ class ShamirSharing():
         return self.__secret_int_to_points(secret_int, share_threshold, num_shares, key_order)
 
     def recover_secret(self, shares):
-        ''' Recover secret '''
-        secret_int = self.__points_to_secret(shares)
-
+        ''' Recover secret from shares '''
         try:
+            secret_int = self.__points_to_secret(shares)
             secret = self.__int_to_str(secret_int)
         except:
-            return secret_int
+            return None
         
         return secret
     
