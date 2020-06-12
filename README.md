@@ -47,25 +47,25 @@ Output:
 
 Below is a table with all KeyOrder.MERSENNE_* constants
 
- #  | Name             | Mersene number | Digits
- ---|------------------|----------------|----------------------
- 1  | MERSENNE_13      | 2^13 - 1       | 4
- 2  | MERSENNE_17      | 2^17 - 1       | 6
- 3  | MERSENNE_19      | 2^19 - 1       | 6
- 4  | MERSENNE_31      | 2^31 - 1       | 10
- 5  | MERSENNE_61      | 2^61 - 1       | 19
- 6  | MERSENNE_89      | 2^89 - 1       | 27
- 7  | MERSENNE_107     | 2^107 - 1      | 33
- 8  | MERSENNE_127     | 2^127 - 1      | 39
- 9  | MERSENNE_521     | 2^521 - 1      | 157
- 10 | MERSENNE_607     | 2^607 - 1      | 183
- 11 | MERSENNE_1279    | 2^1279 - 1     | 386
- 12 | MERSENNE_2203    | 2^2203 - 1     | 664
- 13 | MERSENNE_2281    | 2^2281 - 1     | 687
- 14 | MERSENNE_3127    | 2^3127 - 1     | 969
- 15 | MERSENNE_4253    | 2^4253 - 1     | 1281
- 16 | MERSENNE_4423    | 2^4423 - 1     | 1332
- 17 | MERSENNE_9689    | 2^9689 - 1     | 2917
+| #  | Name             | Mersene number | Digits
+|----|------------------|----------------|----------------------
+| 1  | MERSENNE_13      | 2^13 - 1       | 4
+| 2  | MERSENNE_17      | 2^17 - 1       | 6
+| 3  | MERSENNE_19      | 2^19 - 1       | 6
+| 4  | MERSENNE_31      | 2^31 - 1       | 10
+| 5  | MERSENNE_61      | 2^61 - 1       | 19
+| 6  | MERSENNE_89      | 2^89 - 1       | 27
+| 7  | MERSENNE_107     | 2^107 - 1      | 33
+| 8  | MERSENNE_127     | 2^127 - 1      | 39
+| 9  | MERSENNE_521     | 2^521 - 1      | 157
+| 10 | MERSENNE_607     | 2^607 - 1      | 183
+| 11 | MERSENNE_1279    | 2^1279 - 1     | 386
+| 12 | MERSENNE_2203    | 2^2203 - 1     | 664
+| 13 | MERSENNE_2281    | 2^2281 - 1     | 687
+| 14 | MERSENNE_3127    | 2^3127 - 1     | 969
+| 15 | MERSENNE_4253    | 2^4253 - 1     | 1281
+| 16 | MERSENNE_4423    | 2^4423 - 1     | 1332
+| 17 | MERSENNE_9689    | 2^9689 - 1     | 2917
 
 ### Recover share
 
